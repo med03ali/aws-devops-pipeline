@@ -28,7 +28,7 @@ This project demonstrates a complete **CI/CD pipeline** built on AWS for a **Jav
 1. ✅ Launch EC2 Dev instance
    - SSH access, install Git, Java 8 Corretto, and Maven
    - Clone project, modify `index.jsp`, initialize GitHub connection (via PAT)
-   - Push code to GitHub
+   - Push code to GitHub : https://github.com/med03ali/nextwork-web-project.git
 
 2. 📦 Configure CodeArtifact
    - Setup Maven settings
