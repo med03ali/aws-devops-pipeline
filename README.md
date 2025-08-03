@@ -43,7 +43,7 @@ This project demonstrates a complete **CI/CD pipeline** built on AWS for a **Jav
    - **CodeDeploy**: Deploys to Prod EC2 on trigger
 
 5. 📜 Infrastructure as Code
-   - Scan with CloudFormation to generate a full template of your architecture
+   - Scan with CloudFormation to generate a full template of the architecture
 
 ---
 
@@ -71,12 +71,12 @@ After pushing to GitHub, the pipeline:
 ## 🖼️ Screenshots
 
 ### 🔹 EC2 Dev Instance
-![EC2 Dev Instance](screenshots/EC2_dev_instance)
+![EC2 Dev Instance](screenshots/EC2_dev_instance.png)
 
 ---
 
 ### 🔹 SSH into EC2
-![SSH into EC2](screenshots/SSH_ec2_and_installing)
+![SSH into EC2](screenshots/SSH_ec2_and_installing.png)
 
 ---
 
@@ -171,10 +171,8 @@ After pushing to GitHub, the pipeline:
 
 ## 🧱 IaC Template
 
-The infrastructure was scanned and exported into a CloudFormation template. *(You can include a link or file reference here.)*
+ ![The infrastructure was scanned and exported into a CloudFormation template.](devops-app-template.yaml)
 
 ---
 
-## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
